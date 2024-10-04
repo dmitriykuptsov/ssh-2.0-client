@@ -24,8 +24,7 @@ import sys
 import os
 sys.path.append(os.getcwd())
 
-from hiplib.utils import misc
-#from utils.misc import misc.Math
+from utils import misc
 
 DH_GROUP_5_PRIME = """
 	FFFFFFFF FFFFFFFF C90FDAA2 2168C234 C4C6628B 80DC1CD1
